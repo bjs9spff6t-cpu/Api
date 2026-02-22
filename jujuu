@@ -354,22 +354,21 @@ do
 
     do
         local files = {
-            ["assets"] = {
-				["Api.lua"] = function() return game:HttpGet("https://raw.githubusercontent.com/bjs9spff6t-cpu/Api/refs/heads/main/Api.lua") end,
-                ["sparkle.ogg"] = function() return game:HttpGet("https://github.com/xander-999/juju/raw/refs/heads/main/sparkle.ogg") end,
-             --  ["skeet.ogg"] = function() return game:HttpGet("https://github.com/xander-999/juju/raw/refs/heads/main/skeet.ogg") end,
-                ["neverlose.ogg"] = function() return game:HttpGet("https://github.com/xander-999/juju/raw/refs/heads/main/neverlose.ogg") end,
-                ["break.ogg"] = function() return game:HttpGet("https://github.com/xander-999/juju/raw/refs/heads/main/break.ogg") end,
-               ["mc bow.ogg"] = function() return game:HttpGet("https://github.com/xander-999/juju/raw/refs/heads/main/mc%20bow.ogg") end,
-                ["primordial.ogg"] = function() return game:HttpGet("https://github.com/xander-999/juju/raw/refs/heads/main/primordial.ogg") end,
-                ["rust.ogg"] = function() return game:HttpGet("https://github.com/xander-999/juju/raw/refs/heads/main/rust.ogg") end,
-                ["sexy.ogg"] = function() return game:HttpGet("https://github.com/xander-999/juju/raw/refs/heads/main/sexy.ogg") end,
-                ["jaydes.png"] = function() return game:HttpGet("https://github.com/xander-999/juju/raw/refs/heads/main/jaydes.png") end,
-                ["1.png"] = function() return game:HttpGet("https://github.com/xander-999/juju/raw/refs/heads/main/1.png") end,
-                ["2.png"] = function() return game:HttpGet("https://github.com/xander-999/juju/raw/refs/heads/main/2.png") end,
-                ["logo.png"] = function() return game:HttpGet("https://github.com/xander-999/juju/raw/refs/heads/main/logo.png") end,
-                ["saturation.png"] = function() return game:HttpGet("https://github.com/xander-999/juju/raw/refs/heads/main/saturation.png") end,
-            },
+			["assets"] = {
+				["sparkle.ogg"] = function() return game:HttpGet("https://raw.githubusercontent.com/bjs9spff6t-cpu/Api/main/sparkle.ogg") end,
+				["skeet.ogg"] = function() return game:HttpGet("https://raw.githubusercontent.com/bjs9spff6t-cpu/Api/main/skeet.ogg") end,
+				["neverlose.ogg"] = function() return game:HttpGet("https://raw.githubusercontent.com/bjs9spff6t-cpu/Api/main/neverlose.ogg") end,
+				["break.ogg"] = function() return game:HttpGet("https://raw.githubusercontent.com/bjs9spff6t-cpu/Api/main/break.ogg") end,
+				["mc bow.ogg"] = function() return game:HttpGet("https://raw.githubusercontent.com/bjs9spff6t-cpu/Api/main/mc%20bow.ogg") end,
+				["primordial.ogg"] = function() return game:HttpGet("https://raw.githubusercontent.com/bjs9spff6t-cpu/Api/main/primordial.ogg") end,
+				["rust.ogg"] = function() return game:HttpGet("https://raw.githubusercontent.com/bjs9spff6t-cpu/Api/main/rust.ogg") end,
+				["sexy.ogg"] = function() return game:HttpGet("https://raw.githubusercontent.com/bjs9spff6t-cpu/Api/main/sexy.ogg") end,
+				["jaydes.png"] = function() return game:HttpGet("https://raw.githubusercontent.com/bjs9spff6t-cpu/Api/main/jaydes.png") end,
+				["1.png"] = function() return game:HttpGet("https://raw.githubusercontent.com/bjs9spff6t-cpu/Api/main/1.png") end,
+				["2.png"] = function() return game:HttpGet("https://raw.githubusercontent.com/bjs9spff6t-cpu/Api/main/2.png") end,
+				["logo.png"] = function() return game:HttpGet("https://raw.githubusercontent.com/bjs9spff6t-cpu/Api/main/logo.png") end,
+				["saturation.png"] = function() return game:HttpGet("https://raw.githubusercontent.com/bjs9spff6t-cpu/Api/main/saturation.png") end,
+			},
 			["custom"] = {
 				["textures.json"] = function() return game:HttpGet("https://raw.githubusercontent.com/bjs9spff6t-cpu/Api/main/textures.json") end,
 				["character.rbxm"] = function() return game:HttpGet("https://raw.githubusercontent.com/bjs9spff6t-cpu/Api/main/character.rbxm") end,
