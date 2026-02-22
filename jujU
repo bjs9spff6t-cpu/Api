@@ -357,7 +357,7 @@ do
             ["assets"] = {
 				["Api.lua"] = function() return game:HttpGet("https://raw.githubusercontent.com/bjs9spff6t-cpu/Api/refs/heads/main/Api.lua") end,
                 ["sparkle.ogg"] = function() return game:HttpGet("https://github.com/xander-999/juju/raw/refs/heads/main/sparkle.ogg") end,
-               ["skeet.ogg"] = function() return game:HttpGet("https://github.com/xander-999/juju/raw/refs/heads/main/skeet.ogg") end,
+             --  ["skeet.ogg"] = function() return game:HttpGet("https://github.com/xander-999/juju/raw/refs/heads/main/skeet.ogg") end,
                 ["neverlose.ogg"] = function() return game:HttpGet("https://github.com/xander-999/juju/raw/refs/heads/main/neverlose.ogg") end,
                 ["break.ogg"] = function() return game:HttpGet("https://github.com/xander-999/juju/raw/refs/heads/main/break.ogg") end,
                ["mc bow.ogg"] = function() return game:HttpGet("https://github.com/xander-999/juju/raw/refs/heads/main/mc%20bow.ogg") end,
